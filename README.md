@@ -50,5 +50,5 @@ Update LazyVim
 To sync these (using symlinks) with your local configs, use:
 
 ```bash
-stow .
+stow -t ~ .
 ```
