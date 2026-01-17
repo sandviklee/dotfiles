@@ -1,10 +1,19 @@
+# Theme
 theme = Kanagawa Dragon
+macos-titlebar-style = hidden
+window-decoration = none
+
+# background-
+background-opacity = 0.85
+background-blur = 5
+
 # Font
 font-family = "JetBrainsMono Nerd Font"
 font-style = Regular
 font-size = 13
 
 # Window
+window-decoration = false
 window-theme = ghostty
 window-padding-x = 14
 window-padding-y = 14
@@ -15,9 +24,9 @@ gtk-toolbar-style = flat
 # Cursor styling
 cursor-style = "block"
 cursor-style-blink = true
+cursor-opacity = 0.8
 
 # Cursor styling + SSH session terminfo
-# (all shell integration options must be passed together)
 shell-integration-features = no-cursor,ssh-env
 
 # Keyboard bindings
