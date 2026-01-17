@@ -12,18 +12,23 @@ return {
     -- { "m00qek/baleia.nvim", tag = "v1.3.0" },
   },
   config = function()
+    ---@module "compile-mode"
     ---@type CompileModeOpts
     vim.g.compile_mode = {
-      -- if you use something like `nvim-cmp` or `blink.cmp` for completion,
-      -- set this to fix tab completion in command mode:
-      -- input_word_completion = true,
-
-      -- to add ANSI escape code support, add:
-      -- baleia_setup = true,
-
-      -- to make `:Compile` replace special characters (e.g. `%`) in
-      -- the command (and behave more like `:!`), add:
-      -- bang_expansion = true,
+      default_command = {
+        python = "python " .. vim.fn.expand("%"),
+        lua = "lua " .. vim.fn.expand("%"),
+        javascript = "bun " .. vim.fn.expand("%"),
+        typescript = "bun " .. vim.fn.expand("%"),
+        c = "make",
+        cpp = "make",
+        go = "go run " .. vim.fn.expand("%"),
+        zig = "zig run " .. vim.fn.expand("%"),
+      },
+      auto_jump_to_first_error = true,
     }
-  end
+
+    vim.keymap.set("n", "<C-c>", vim.cmd.Compile, { desc = "Compile code" })
+    vim.keymap.set("n", "<C-r>", vim.cmd.Recompile, { desc = "Recompile code" })
+  end,
 }
