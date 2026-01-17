@@ -2,20 +2,22 @@
 
 #### My Setup
 
-- OS: MacOS ARM V DHH's Opinionated Arch (Omarchy) x86_64
-- Term: Ghostty V Wezterm
+- OS: MacOS @ ARM V DHH's Opinionated Arch (Omarchy) @ x86_64
+- Term: Ghostty
 - Shell: Zsh
-- WM: Hyprland V Aerospace V Rectangle
+- WM: Aerospace V Hyprland 
 - Text Editor: Neovim
 
 #### My Dotfiles
 
-- Ghostty
-- Neovim
+- Ghostty 
 - Tmux
+- Neovim (lazyvim)
+- Aerospace
 - OpenCode (Mainly just for adding new models...)
 
-#### General stuff
+#### General
+Just for me to remember different commands'n stuff
 
 ##### TPM
 
@@ -52,3 +54,106 @@ To sync these (using symlinks) with your local configs, use:
 ```bash
 stow -t ~ .
 ```
+
+### Very important message down here \ /
+
+
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|
+
+continue, you are there soon!
+
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|
+
+soon you will soon know all the secrets!!
+
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|\
+|
+
+
+
+```
+ ______________________________________________
+< Stop Creeping in my dotfiles! Create your own >
+ ----------------------------------------------
+                 /   
+                /
+```
+<img height="180" src=https://www.markdownguide.org/assets/images/generated/assets/images/tux-1080.webp></img>
