@@ -25,7 +25,7 @@ return {
         go = "go run " .. vim.fn.expand("%"),
         zig = "zig run " .. vim.fn.expand("%"),
       },
-      auto_jump_to_first_error = true,
+      auto_jump_to_first_error = false,
     }
 
     vim.keymap.set("n", "<C-c>", vim.cmd.Compile, { desc = "Compile code" })
