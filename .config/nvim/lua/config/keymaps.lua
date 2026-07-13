@@ -5,3 +5,5 @@ local map = vim.keymap.set
 
 map("n", "<C-d>", "<C-d>zz", { desc = "Jump to the middle of the screen" })
 map("n", "<C-u>", "<C-u>zz", { desc = "Jump to the middle of the screen" })
+map("n", "<leader>rn", vim.lsp.buf.rename, { desc = "Refactor variable name in scope" })
+map("n", "U", "<C-r>", { desc = "Redo" })
